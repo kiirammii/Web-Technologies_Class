@@ -7,13 +7,24 @@
 </head>
 <body>
     <form action="https://www.webucator.com/materials/htm101/" method="post">
-        <input type="text" name="username" id="username" placeholder="username"><br>
-        <input type="password" name="pw" id="pw" placeholder="password"><br>
+        <h1>Registration Form</h1>
+
+        <label for="username">Username: </label>
+        <input type="text" name="username" id="username"><br>
+
+        <label for="pw">Password: </label>
+        <input type="password" name="pw" id="pw">
+
         <input type="hidden" name="emailMe" id="emailMe" value="catarinatsousa04@gmail.com"><br>
 
+        <label for="gender">Gender:</label>
         <input type="radio" name="gender" id="genderm" value="m">Male
-        <input type="radio" name="gender" id="genderf" value="f">Female<br><br>
+        <input type="radio" name="gender" id="genderf" value="f">Female<br>
 
+        <label for="terms">Click to accept our terms</label>
+        <input type="checkbox" name="terms" id="terms"><br>
+
+        <label for="referral">Where did you hear about us?</label>
         <select name="referral" id="referral">
             <option value="0">-Please choose-</option>
             <option value="wom">Word of Mouth</option>
@@ -22,11 +33,12 @@
                 <option value="Yahoo">Yahoo</option>
                 <option value="MSN">MSN</option>
             </optgroup>
-        </select><br><br>
+        </select><br>
 
-        <textarea name="comments" id="comments"></textarea><br><br>
+        <label for="comments">Comments</label><br>
+        <textarea name="comments" id="comments" cols="40" rows="5"></textarea><br>
 
-        <input type="checkbox" name="terms" id="terms">Terms<br><br>
+        
 
         <input type="submit" value="Register">
         <input type="reset">
