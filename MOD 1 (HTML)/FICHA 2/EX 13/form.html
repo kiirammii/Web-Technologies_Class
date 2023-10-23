@@ -7,55 +7,67 @@
 </head>
 <body>
     <form action="index.html" method="post">
-        <label for="name">Name:</label>
-        <input type="text" name="name">
+        <div id="name">
+           <label for="name">Name:</label>
+            <input type="text" name="name"> 
+        </div>
+        
+        <div id="age">
+            <fieldset>
+                <legend>Age</legend>
 
-        <fieldset>
-            <legend>Age</legend>
+                <label for="0-18">&lt;18</label>
+                <input type="radio" name="age" value="0-18">
 
-            <label for="0-18">&lt;18</label>
-            <input type="radio" name="age" value="0-18">
+                <label for="19-35">19-35</label>
+                <input type="radio" name="age" value="19-35">
 
-            <label for="19-35">19-35</label>
-            <input type="radio" name="age" value="19-35">
+                <label for="36-48">36-48</label>
+                <input type="radio" name="age" value="0-18">
 
-            <label for="36-48">36-48</label>
-            <input type="radio" name="age" value="0-18">
+                <label for="49+">&gt;49</label>
+                <input type="radio" name="age" value="49+">
+            </fieldset>
+        </div>
+        
+        <div id="profession">
+            <label for="profession">Profession:</label>
+            <input type="text" name="profession">
+        </div>
 
-            <label for="49+">&gt;49</label>
-            <input type="radio" name="age" value="49+">
-        </fieldset>
+        <div id="country">
+            <label for="country">Country:</label>
+            <select name="country">
+                <option value="Portugal">Portugal</option>
+                <option value="Espanha">Espanha</option>
+                <option value="França">França</option>
+                <option value="Reino Unido">Reino Unido</option>
+            </select>
+        </div>
 
-        <label for="profession">Profession:</label>
-        <input type="text" name="profession">
-
-        <label for="country">Country:</label>
-        <select name="country">
-            <option value="Portugal">Portugal</option>
-            <option value="Espanha">Espanha</option>
-            <option value="França">França</option>
-            <option value="Reino Unido">Reino Unido</option>
-        </select>
-
-        <fieldset>
-            <legend>Interests</legend>
-
-            <label for="Photography">Photography</label>
-            <input type="checkbox" name="Interests" value="Photography">
-
-            <label for="Music">Music</label>
-            <input type="checkbox" name="Interests" value="Music">
-
-            <label for="Cinema">Cinema</label>
-            <input type="checkbox" name="Interests" value="Cinema">
-
-            <label for="Computers">Computers</label>
-            <input type="checkbox" name="Interests" value="Computers">
-        </fieldset>
-
-        <label for="more">How did you find us?</label>
-        <textarea name="more" cols="30" rows="5"></textarea><br>
-
+        <div id="interests">
+            <fieldset>
+                <legend>Interests</legend>
+    
+                <label for="Photography">Photography</label>
+                <input type="checkbox" name="Interests" value="Photography">
+    
+                <label for="Music">Music</label>
+                <input type="checkbox" name="Interests" value="Music">
+    
+                <label for="Cinema">Cinema</label>
+                <input type="checkbox" name="Interests" value="Cinema">
+    
+                <label for="Computers">Computers</label>
+                <input type="checkbox" name="Interests" value="Computers">
+            </fieldset>
+        </div>
+        
+        <div id="more">
+            <label for="more">How did you find us?</label>
+            <textarea name="more" cols="30" rows="5"></textarea><br>
+        </div>
+        
         <input type="submit" value="submit">
     </form>
 </body>
