@@ -1,0 +1,29 @@
+body {
+    font-family: "Raleway";
+    color: #FFFFFF;
+    background-color:#000000;
+}
+
+.headline {
+    color: #FFFFFF;
+    margin-top: 100px;
+}
+
+.subtitle {
+    color: #BDBDBD;
+}
+
+.get_started {
+    background-color: #2B892E;
+    border: none;
+    border-radius: 100px;
+    color:#ffffff;
+    cursor: pointer;
+    font-size: 15px;
+    width: 125px;
+    height: 43px;
+}
+
+.picture {
+
+}
