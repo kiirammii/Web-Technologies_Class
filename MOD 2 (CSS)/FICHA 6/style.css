@@ -7,10 +7,18 @@ body {
 .headline {
     color: #FFFFFF;
     margin-top: 100px;
+    font-size: 50px;
+    line-height: 60px;
+    width: 500px;
+    margin-bottom: 20px;
 }
 
 .subtitle {
     color: #BDBDBD;
+    width: 450px;
+    line-height: 27px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .get_started {
@@ -19,11 +27,22 @@ body {
     border-radius: 100px;
     color:#ffffff;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 14px;
     width: 125px;
-    height: 43px;
+    height: 42px;
 }
 
 .picture {
+    width: 650px;
+}
 
+.image {
+    padding-left: 50px;
+    padding-bottom: 100px;
+    padding-top:10px
+}
+
+.head {
+    padding-left: 50px;
+    padding-bottom: 50px;
 }
