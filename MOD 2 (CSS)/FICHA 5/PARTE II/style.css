@@ -1,26 +1,29 @@
 body {
     background-color: #e2dcff;
+    text-align: center;
 }
 
 .hero {
     font-family: 'Jost', sans-serif;
-    width: 500px
+    width: 500px;
 }
 
 .topic {
     margin-top: 30px;
     font-size: 15px;
+    color:#7d5fff;
 }
 
 .hero_headline {
     font-size: 30px;
+    color: #3d3269;
 }
 
 .date {
-    color: #1a1a1a
+    color: #3d3269
 }
 
 .row {
     border-top: dotted 2px #7d5fff;
-    width: 1000px;
+    width: 600px;
 }
