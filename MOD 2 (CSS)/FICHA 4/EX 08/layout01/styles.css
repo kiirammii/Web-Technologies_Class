@@ -1,0 +1,25 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#green {
+    grid-area: 1 / 1 / 2 / 4
+}
+
+#yellow {
+    grid-area: 2 / 1 / 4 / 2
+}
+
+#orange {
+    grid-area: 2 / 2 / 3 / 3
+}
+
+#red {
+    grid-area: 2 / 3 / 4 / 4 
+}
+
+#blue {
+    grid-area: 3 / 2 / 4 / 3
+}
