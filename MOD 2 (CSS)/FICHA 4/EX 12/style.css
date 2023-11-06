@@ -22,7 +22,23 @@
 }
 
 .box-1 {
-  /* Define background here */
+  background-image: url('css3.png'), url('html5.png');
+  background-position: left top, right top;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 60px 60px, 50px 50px;
+
+  /*
+  background-image: url('css3.png');
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+
+  
+  background-image: url('html5.png');
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+  */
 }
 
 .box-2 {

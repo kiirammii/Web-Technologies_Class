@@ -29,3 +29,31 @@ figure {
 figcaption {
   font-size: 0.8em;
 }
+
+@media (min-width: 820px) {
+  body {
+    background-color:rgb(194, 133, 193);
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  figure {
+    float: left;
+    width: 40%;
+    margin: 10px
+  }
+}
+
+@media (min-width: 1020px) {
+  body {
+    background-color:rgb(27, 200, 192);
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  figure {
+    float: left;
+    width: 25%;
+    margin: 10px
+  }
+}
