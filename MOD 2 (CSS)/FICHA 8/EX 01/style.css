@@ -1,0 +1,24 @@
+body {
+    background-color: #FFFFFF;
+    margin: 0;
+}
+
+section {
+    padding: 80px;
+}
+
+.img_grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 60px;
+    align-items: center;
+    justify-items: center;
+}
+
+@media (max-width: 768px) {
+    .img_grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    
+}
