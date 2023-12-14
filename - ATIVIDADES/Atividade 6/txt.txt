@@ -1,0 +1,102 @@
+<div class="container-fluid">
+    <form id="form">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <div class="input-group margin-bottom">
+                        <span class="input-group-text" id="basic-addon1">Mr./Mrs.</span>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="form-group margin-bottom">
+                    <label for="name">Apelido</label>
+                    <input type="text" class="form-control" id="name" />
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <div class="form-group margin-bottom">
+              <label for="job">Profissão</label>
+              <input
+                type="text"
+                class="form-control"
+                id="job"
+                placeholder="Insira a sua profissão..."
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="form-group col-md-6 margin-bottom">
+            <label for="inputCity">Cidade</label>
+            <input type="text" class="form-control" id="inputCity" />
+          </div>
+
+          <div class="form-group col-md-4 margin-bottom">
+            <label for="zone">Distrito</label>
+            <select id="zone" class="form-select">
+              <option disabled hidden selected value=""></option>
+              <option>Porto</option>
+              <option>Lisboa</option>
+              <option>Aveiro</option>
+            </select>
+          </div>
+
+          <div class="form-group col-md-2 margin-bottom">
+            <label for="zip">Código Postal</label>
+            <input type="text" class="form-control" id="zip" />
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary button-align">
+          Sign in
+        </button>
+      </form>
+    </div>
+
+    <div class="margin-bottom-1000"></div>
+
+    <div id="carros" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+            src="https://st3.idealista.pt/news/arquivos/styles/news_detail/public/2020-01/800px-renault_clio_v_genf_2019_1y7a5590.jpg"
+            class="d-block w-100"
+            alt="carro1"
+            height="800px"
+          />
+          </div>
+          <div class="carousel-item">
+            <img
+            src="https://pplware.sapo.pt/wp-content/uploads/2019/10/pplware_tesla_model_3_02.jpg"
+            class="d-block w-100"
+            alt="carro2"
+            height="800px"
+          />
+          </div>
+          <div class="carousel-item">
+            <img
+            src="https://cdn.motor1.com/images/mgl/lY19w/s1/bugatti-la-voiture-noire.jpg"
+            class="d-block w-100"
+            alt="carro3"
+            height="800px"
+          />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carros" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carros" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <a class="btn btn-light button-align" href="#" role="button">Topo</a>
