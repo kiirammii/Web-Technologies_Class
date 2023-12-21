@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num = parseInt(prompt('Digite um número inteiro'));
+
+        let reversedNum = 0;
+        let temp = num;
+        
+        while (temp > 0) {
+            let digit = temp % 10;
+            reversedNum = reversedNum * 10 + digit;
+            temp = parseInt(temp / 10);
+        }
+
+        if (num === reversedNum) {
+            alert('O número' + num + 'é um número palíndromo');
+        } else {
+            alert('O número' + num + 'não é um número palíndromo');
+        }
+    </script>
+</body>
+</html>
